@@ -1,0 +1,1338 @@
+[
+  {
+    "ID_DOMINIO": 1,
+    "NOME_DOMINIO": "Canais",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 1,
+        "ID_DOMINIO": 1,
+        "NOME_CAPACIDADE": "Mobile e Internet Banking",
+        "sistemas": [
+          {
+            "ID": 1,
+            "ID_CAPACIDADE": 1,
+            "NOME": "BS2GO",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 2,
+            "ID_CAPACIDADE": 1,
+            "NOME": "IB PF/PJ",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 3,
+            "ID_CAPACIDADE": 1,
+            "NOME": "App GoMulti",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 1,
+            "ID_CAPACIDADE": 1,
+            "NOME": "API Pix",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 2,
+            "ID_CAPACIDADE": 1,
+            "NOME": "APIs PJ",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 2,
+        "ID_DOMINIO": 1,
+        "NOME_CAPACIDADE": "Plataforma de Atendimento",
+        "sistemas": [
+          {
+            "ID": 4,
+            "ID_CAPACIDADE": 2,
+            "NOME": "Portal do Consultor",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 5,
+            "ID_CAPACIDADE": 2,
+            "NOME": "BlueApp Admin",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 3,
+            "ID_CAPACIDADE": 2,
+            "NOME": "Fenix",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "retire"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 3,
+        "ID_DOMINIO": 1,
+        "NOME_CAPACIDADE": "Atendimento (Call Center/Chat)",
+        "sistemas": [
+          {
+            "ID": 6,
+            "ID_CAPACIDADE": 3,
+            "NOME": "HubSpot",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 7,
+            "ID_CAPACIDADE": 3,
+            "NOME": "Salesforce",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 8,
+            "ID_CAPACIDADE": 3,
+            "NOME": "Genesys",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 4,
+            "ID_CAPACIDADE": 3,
+            "NOME": "TKSip",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 5,
+            "ID_CAPACIDADE": 3,
+            "NOME": "Blip",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 6,
+            "ID_CAPACIDADE": 3,
+            "NOME": "WhatsApp",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 4,
+        "ID_DOMINIO": 1,
+        "NOME_CAPACIDADE": "Mensageria",
+        "sistemas": [
+          {
+            "ID": 9,
+            "ID_CAPACIDADE": 4,
+            "NOME": "Jaiminho",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 7,
+            "ID_CAPACIDADE": 4,
+            "NOME": "Infobip",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 8,
+            "ID_CAPACIDADE": 4,
+            "NOME": "Amazon SES",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 9,
+            "ID_CAPACIDADE": 4,
+            "NOME": "MailGun",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 10,
+            "ID_CAPACIDADE": 4,
+            "NOME": "Twilio",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "retire"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 5,
+        "ID_DOMINIO": 1,
+        "NOME_CAPACIDADE": "Mídia Social e Portais",
+        "sistemas": [
+          {
+            "ID": 10,
+            "ID_CAPACIDADE": 5,
+            "NOME": "Intranet",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 11,
+            "ID_CAPACIDADE": 5,
+            "NOME": "SharePoint",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 11,
+            "ID_CAPACIDADE": 5,
+            "NOME": "YouTube",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 12,
+            "ID_CAPACIDADE": 5,
+            "NOME": "Instagram",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 2,
+    "NOME_DOMINIO": "Gestão de Clientes",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 6,
+        "ID_DOMINIO": 2,
+        "NOME_CAPACIDADE": "Cadastro e Validação (KYC)",
+        "sistemas": [
+          {
+            "ID": 12,
+            "ID_CAPACIDADE": 6,
+            "NOME": "CUC",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 13,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Bases Corporativas (CBS)",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 13,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Lista Restritiva",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 14,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Neurotech",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 15,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Data Insights",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 16,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Neoway",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 17,
+            "ID_CAPACIDADE": 6,
+            "NOME": "Serpro",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 7,
+        "ID_DOMINIO": 2,
+        "NOME_CAPACIDADE": "Onboarding de Cliente",
+        "sistemas": [
+          {
+            "ID": 14,
+            "ID_CAPACIDADE": 7,
+            "NOME": "Blue App Portal Onboarding",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 18,
+            "ID_CAPACIDADE": 7,
+            "NOME": "Facetec",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 8,
+        "ID_DOMINIO": 2,
+        "NOME_CAPACIDADE": "Vendas e Campanhas",
+        "sistemas": [
+          {
+            "ID": 15,
+            "ID_CAPACIDADE": 8,
+            "NOME": "HubSpot",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 19,
+            "ID_CAPACIDADE": 8,
+            "NOME": "Hi Platform",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 20,
+            "ID_CAPACIDADE": 8,
+            "NOME": "Mautic",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "retire"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 9,
+        "ID_DOMINIO": 2,
+        "NOME_CAPACIDADE": "Antifraude e Prevenção",
+        "sistemas": [
+          {
+            "ID": 16,
+            "ID_CAPACIDADE": 9,
+            "NOME": "Cactus",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 17,
+            "ID_CAPACIDADE": 9,
+            "NOME": "AML",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 18,
+            "ID_CAPACIDADE": 9,
+            "NOME": "PLD as a Service",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 21,
+            "ID_CAPACIDADE": 9,
+            "NOME": "Sydle One",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 3,
+    "NOME_DOMINIO": "Produtos e Serviços",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 10,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Conta Corrente e Cash Management",
+        "sistemas": [
+          {
+            "ID": 19,
+            "ID_CAPACIDADE": 10,
+            "NOME": "Sinqia",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 20,
+            "ID_CAPACIDADE": 10,
+            "NOME": "CCO V2",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 22,
+            "ID_CAPACIDADE": 10,
+            "NOME": "SGR",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 23,
+            "ID_CAPACIDADE": 10,
+            "NOME": "Pix (Direto/Indireto)",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 24,
+            "ID_CAPACIDADE": 10,
+            "NOME": "BS2 Pay",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 11,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Empréstimos e Financiamentos",
+        "sistemas": [
+          {
+            "ID": 21,
+            "ID_CAPACIDADE": 11,
+            "NOME": "Sinqia Empréstimo",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 22,
+            "ID_CAPACIDADE": 11,
+            "NOME": "Fênix",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 23,
+            "ID_CAPACIDADE": 11,
+            "NOME": "BS2 Crédito",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 24,
+            "ID_CAPACIDADE": 11,
+            "NOME": "FinCorp",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 25,
+            "ID_CAPACIDADE": 11,
+            "NOME": "Credit Flow",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 26,
+            "ID_CAPACIDADE": 11,
+            "NOME": "CERC",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 27,
+            "ID_CAPACIDADE": 11,
+            "NOME": "NUCLEA",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 12,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Câmbio e Moeda Estrangeira",
+        "sistemas": [
+          {
+            "ID": 25,
+            "ID_CAPACIDADE": 12,
+            "NOME": "Miletus",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 26,
+            "ID_CAPACIDADE": 12,
+            "NOME": "Conta Internacional",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 28,
+            "ID_CAPACIDADE": 12,
+            "NOME": "Apis Cambio",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 29,
+            "ID_CAPACIDADE": 12,
+            "NOME": "ChangeOn",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 30,
+            "ID_CAPACIDADE": 12,
+            "NOME": "Refinitiv",
+            "CLASSIFICACAO": "parceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 13,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Tesouraria e Investimentos",
+        "sistemas": [
+          {
+            "ID": 27,
+            "ID_CAPACIDADE": 13,
+            "NOME": "CRK",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 31,
+            "ID_CAPACIDADE": 13,
+            "NOME": "SGL",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 32,
+            "ID_CAPACIDADE": 13,
+            "NOME": "Front Office",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 14,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Cartões",
+        "sistemas": [
+          {
+            "ID": 28,
+            "ID_CAPACIDADE": 14,
+            "NOME": "Processadora Dock",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 29,
+            "ID_CAPACIDADE": 14,
+            "NOME": "Processadora Bit55",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 33,
+            "ID_CAPACIDADE": 14,
+            "NOME": "Apis Cartões",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 15,
+        "ID_DOMINIO": 3,
+        "NOME_CAPACIDADE": "Precatórios",
+        "sistemas": [
+          {
+            "ID": 30,
+            "ID_CAPACIDADE": 15,
+            "NOME": "SisCorp",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 31,
+            "ID_CAPACIDADE": 15,
+            "NOME": "Mercatório",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": []
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 4,
+    "NOME_DOMINIO": "Pagamentos",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 16,
+        "ID_DOMINIO": 4,
+        "NOME_CAPACIDADE": "Hub de Processamento",
+        "sistemas": [
+          {
+            "ID": 32,
+            "ID_CAPACIDADE": 16,
+            "NOME": "Dock",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 33,
+            "ID_CAPACIDADE": 16,
+            "NOME": "IS2B (Itaú)",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 34,
+            "ID_CAPACIDADE": 16,
+            "NOME": "EasyPay",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 35,
+            "ID_CAPACIDADE": 16,
+            "NOME": "Sirius",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 34,
+            "ID_CAPACIDADE": 16,
+            "NOME": "TED/Pix Remessa",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 35,
+            "ID_CAPACIDADE": 16,
+            "NOME": "Compensação (CMP)",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 36,
+            "ID_CAPACIDADE": 16,
+            "NOME": "Concilia PIX",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 17,
+        "ID_DOMINIO": 4,
+        "NOME_CAPACIDADE": "Pagamentos Internacionais",
+        "sistemas": [
+          {
+            "ID": 36,
+            "ID_CAPACIDADE": 17,
+            "NOME": "Alliance (Swift)",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 37,
+            "ID_CAPACIDADE": 17,
+            "NOME": "Western Union",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 18,
+        "ID_DOMINIO": 4,
+        "NOME_CAPACIDADE": "Autorizador",
+        "sistemas": [
+          {
+            "ID": 37,
+            "ID_CAPACIDADE": 18,
+            "NOME": "Dock",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": []
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 5,
+    "NOME_DOMINIO": "Dados & Analytics",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 19,
+        "ID_DOMINIO": 5,
+        "NOME_CAPACIDADE": "Data Warehouse e Data Lake",
+        "sistemas": [
+          {
+            "ID": 38,
+            "ID_CAPACIDADE": 19,
+            "NOME": "Google BigQuery",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 39,
+            "ID_CAPACIDADE": 19,
+            "NOME": "SQL Server",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 38,
+            "ID_CAPACIDADE": 19,
+            "NOME": "Big Data SIMM",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 39,
+            "ID_CAPACIDADE": 19,
+            "NOME": "Hadoop",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 40,
+            "ID_CAPACIDADE": 19,
+            "NOME": "PostgreSQL",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 20,
+        "ID_DOMINIO": 5,
+        "NOME_CAPACIDADE": "BI e Reporting",
+        "sistemas": [
+          {
+            "ID": 40,
+            "ID_CAPACIDADE": 20,
+            "NOME": "Power BI",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 41,
+            "ID_CAPACIDADE": 20,
+            "NOME": "Looker",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 42,
+            "ID_CAPACIDADE": 20,
+            "NOME": "Qlik",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 41,
+            "ID_CAPACIDADE": 20,
+            "NOME": "Looker Studio",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 42,
+            "ID_CAPACIDADE": 20,
+            "NOME": "ELK",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 21,
+        "ID_DOMINIO": 5,
+        "NOME_CAPACIDADE": "Advanced Analytics",
+        "sistemas": [
+          {
+            "ID": 43,
+            "ID_CAPACIDADE": 21,
+            "NOME": "BigQuery ML",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 44,
+            "ID_CAPACIDADE": 21,
+            "NOME": "Spark",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 43,
+            "ID_CAPACIDADE": 21,
+            "NOME": "Dataproc",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 44,
+            "ID_CAPACIDADE": 21,
+            "NOME": "BlueApp",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 22,
+        "ID_DOMINIO": 5,
+        "NOME_CAPACIDADE": "Relatórios Regulatórios",
+        "sistemas": [
+          {
+            "ID": 45,
+            "ID_CAPACIDADE": 22,
+            "NOME": "BIG",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 46,
+            "ID_CAPACIDADE": 22,
+            "NOME": "Mitra",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 47,
+            "ID_CAPACIDADE": 22,
+            "NOME": "CIL",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 48,
+            "ID_CAPACIDADE": 22,
+            "NOME": "E-Financeira",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": []
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 6,
+    "NOME_DOMINIO": "Integração e Orquestração",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 23,
+        "ID_DOMINIO": 6,
+        "NOME_CAPACIDADE": "Plataforma de API e Middleware",
+        "sistemas": [
+          {
+            "ID": 49,
+            "ID_CAPACIDADE": 23,
+            "NOME": "Apigee",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 50,
+            "ID_CAPACIDADE": 23,
+            "NOME": "Kong",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 51,
+            "ID_CAPACIDADE": 23,
+            "NOME": "Broadcom",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 45,
+            "ID_CAPACIDADE": 23,
+            "NOME": "Nginx",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 46,
+            "ID_CAPACIDADE": 23,
+            "NOME": "RabbitMQ",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 24,
+        "ID_DOMINIO": 6,
+        "NOME_CAPACIDADE": "BPM & RPA",
+        "sistemas": [
+          {
+            "ID": 52,
+            "ID_CAPACIDADE": 24,
+            "NOME": "SydleOne",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 53,
+            "ID_CAPACIDADE": 24,
+            "NOME": "Power Automate",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 47,
+            "ID_CAPACIDADE": 24,
+            "NOME": "Risk Engine",
+            "CLASSIFICACAO": "proprio",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 48,
+            "ID_CAPACIDADE": 24,
+            "NOME": "Jira",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 25,
+        "ID_DOMINIO": 6,
+        "NOME_CAPACIDADE": "Troca de Arquivos",
+        "sistemas": [],
+        "componentes": [
+          {
+            "ID": 49,
+            "ID_CAPACIDADE": 25,
+            "NOME": "SFTP",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 50,
+            "ID_CAPACIDADE": 25,
+            "NOME": "Connect Direct",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 7,
+    "NOME_DOMINIO": "Sistemas Corporativos",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 26,
+        "ID_DOMINIO": 7,
+        "NOME_CAPACIDADE": "Contábil, Fiscal e Financeiro",
+        "sistemas": [
+          {
+            "ID": 54,
+            "ID_CAPACIDADE": 26,
+            "NOME": "CRK Contábil/Fiscal",
+            "CLASSIFICACAO": "estruturante",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 55,
+            "ID_CAPACIDADE": 26,
+            "NOME": "Sydle",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 56,
+            "ID_CAPACIDADE": 26,
+            "NOME": "GRB Evolution",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 51,
+            "ID_CAPACIDADE": 26,
+            "NOME": "Easy Tributos",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 27,
+        "ID_DOMINIO": 7,
+        "NOME_CAPACIDADE": "Comunicação e Colaboração",
+        "sistemas": [
+          {
+            "ID": 57,
+            "ID_CAPACIDADE": 27,
+            "NOME": "Office 365",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 58,
+            "ID_CAPACIDADE": 27,
+            "NOME": "Slack",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 52,
+            "ID_CAPACIDADE": 27,
+            "NOME": "Teams",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 53,
+            "ID_CAPACIDADE": 27,
+            "NOME": "Miro",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 54,
+            "ID_CAPACIDADE": 27,
+            "NOME": "Figma",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 28,
+        "ID_DOMINIO": 7,
+        "NOME_CAPACIDADE": "RH (Recursos Humanos)",
+        "sistemas": [
+          {
+            "ID": 59,
+            "ID_CAPACIDADE": 28,
+            "NOME": "FPW",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 55,
+            "ID_CAPACIDADE": 28,
+            "NOME": "JobConvo",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 56,
+            "ID_CAPACIDADE": 28,
+            "NOME": "Qulture.Rocks",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 29,
+        "ID_DOMINIO": 7,
+        "NOME_CAPACIDADE": "Risco e Compliance",
+        "sistemas": [
+          {
+            "ID": 60,
+            "ID_CAPACIDADE": 29,
+            "NOME": "Archer",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 61,
+            "ID_CAPACIDADE": 29,
+            "NOME": "Módulo",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 57,
+            "ID_CAPACIDADE": 29,
+            "NOME": "E-Guardian",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 58,
+            "ID_CAPACIDADE": 29,
+            "NOME": "ClickCompliance",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 30,
+        "ID_DOMINIO": 7,
+        "NOME_CAPACIDADE": "Gestão de Assinatura de Documentos",
+        "sistemas": [
+          {
+            "ID": 62,
+            "ID_CAPACIDADE": 30,
+            "NOME": "DocuSign",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 59,
+            "ID_CAPACIDADE": 30,
+            "NOME": "ClickSign",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          },
+          {
+            "ID": 60,
+            "ID_CAPACIDADE": 30,
+            "NOME": "GreenSign",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID_DOMINIO": 8,
+    "NOME_DOMINIO": "Operações de TI",
+    "capacidades": [
+      {
+        "ID_CAPACIDADE": 31,
+        "ID_DOMINIO": 8,
+        "NOME_CAPACIDADE": "Service Desk e Gestão (ITSM)",
+        "sistemas": [
+          {
+            "ID": 63,
+            "ID_CAPACIDADE": 31,
+            "NOME": "Jira",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 64,
+            "ID_CAPACIDADE": 31,
+            "NOME": "Azure DevOps",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 65,
+            "ID_CAPACIDADE": 31,
+            "NOME": "BMC Atrium",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": []
+      },
+      {
+        "ID_CAPACIDADE": 32,
+        "ID_DOMINIO": 8,
+        "NOME_CAPACIDADE": "Monitoramento e Observability",
+        "sistemas": [
+          {
+            "ID": 66,
+            "ID_CAPACIDADE": 32,
+            "NOME": "Datadog",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 67,
+            "ID_CAPACIDADE": 32,
+            "NOME": "Dynatrace",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 68,
+            "ID_CAPACIDADE": 32,
+            "NOME": "Zabbix",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "replace"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 61,
+            "ID_CAPACIDADE": 32,
+            "NOME": "ELK",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 62,
+            "ID_CAPACIDADE": 32,
+            "NOME": "Grafana",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 63,
+            "ID_CAPACIDADE": 32,
+            "NOME": "Prometheus",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 33,
+        "ID_DOMINIO": 8,
+        "NOME_CAPACIDADE": "Configuração e CI/CD",
+        "sistemas": [
+          {
+            "ID": 69,
+            "ID_CAPACIDADE": 33,
+            "NOME": "Azure DevOps",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "evolve"
+          },
+          {
+            "ID": 70,
+            "ID_CAPACIDADE": 33,
+            "NOME": "GitLab",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 71,
+            "ID_CAPACIDADE": 33,
+            "NOME": "GitHub",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 64,
+            "ID_CAPACIDADE": 33,
+            "NOME": "Jenkins",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 65,
+            "ID_CAPACIDADE": 33,
+            "NOME": "Bitbucket",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "retire"
+          }
+        ]
+      },
+      {
+        "ID_CAPACIDADE": 34,
+        "ID_DOMINIO": 8,
+        "NOME_CAPACIDADE": "Segurança da Informação",
+        "sistemas": [
+          {
+            "ID": 72,
+            "ID_CAPACIDADE": 34,
+            "NOME": "Cactus",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 73,
+            "ID_CAPACIDADE": 34,
+            "NOME": "Zscaler",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 74,
+            "ID_CAPACIDADE": 34,
+            "NOME": "CyberArk",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ],
+        "componentes": [
+          {
+            "ID": 66,
+            "ID_CAPACIDADE": 34,
+            "NOME": "BurpSuite",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          },
+          {
+            "ID": 67,
+            "ID_CAPACIDADE": 34,
+            "NOME": "Checkmarx",
+            "CLASSIFICACAO": "terceiro",
+            "STATUS": "maintain"
+          }
+        ]
+      }
+    ]
+  }
+]
